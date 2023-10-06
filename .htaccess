@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirigir las solicitudes de "/micrositio" a "/micrositio/index.html"
+RewriteRule ^aplication/?$ /aplication/index.html [L]
